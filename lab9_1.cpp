@@ -22,7 +22,7 @@ i++;
 	}while(true);
 	
 	
-	cout << "In total "<<i<<" students.\n";
+	cout << "In total "<<i-1<<" students.\n";
 	cout << "A = " << count[0] <<",";
 	cout << "B = " << count[1] <<",";
 	cout << "C = " << count[2] <<",";	
