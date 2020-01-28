@@ -12,7 +12,7 @@ int main(){
   string textline;
   ifstream source ("C:\\Users\\Admin\\Desktop\\c##\\git\\lab9-2562-2-nayrunner\\score.txt");
   while (getline(source,textline)){
-      cout<<textline<<'\n';
+
       sum +=atof(textline.c_str());
       sumsum += (atof(textline.c_str())*atof(textline.c_str()));
 
