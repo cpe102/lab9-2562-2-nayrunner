@@ -15,7 +15,8 @@ int main(){
 			      else if(grade=='C'){count[2]=count[2]+1;}
 				       else if(grade=='D'){count[3]=count[3]+1;}
 					        else if(grade=='F'){count[4]=count[4]+1;}
-		                         else{cout<<"Wrong input. Please input again.\n";}
+		                         else{cout<<"Wrong input. Please input again.\n";
+								 continue;}
 i++;
 
 	}while(true);
